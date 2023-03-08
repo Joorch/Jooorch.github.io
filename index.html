@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/6717faacbf.js" crossorigin="anonymous"></script>
+    <script defer src="java.js"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1198/1198293.png">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img  height="70" width="70" src="https://cdn-icons-png.flaticon.com/512/1198/1198293.png"alt="icon perfil generico">
+            </a>
+            <button class="open_menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="menu">
+                <button class="close_menu">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#Experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#estudio">estudio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </ul>
+              <div id="conta">
+                <div class="toggle"></div>
+              </div>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+          <div class="profile-info">
+            <h1 class="profile-title ">Hola, soy<br><span> Jorge Cadamuro</span></h1>
+            <p class="profile-details">
+                Como diseñador web, mi objetivo es causar un impacto positivo en los clientes, los compañeros de trabajo e Internet utilizando mis habilidades y experiencia para diseñar sitios web convincentes y atractivos.
+            </p>
+            <button class="profile-btn">Descargar CV</button>
+          </div>
+          <span class="profile-img-section">
+            <img
+              class="profile-img"
+              src=https://www.pngall.com/wp-content/uploads/2016/04/Happy-Person-Free-Download-PNG.png alt="programador"/>
+          </span>
+        </section>
+    </div>
+
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skill"id="habilidades">
+        <h2 class="skills-title">habilidad</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Node.js</li>
+          <li class="skills-skill">React.js</li>
+          <li class="skills-skill">TypeScript</li>
+          <li class="skills-skill">JavaScript</li>
+    </div>
+</section>
+</div>
+    <section class="experiencia" id="Experiencia">
+        <div class="experiencia-body">
+            <h2 class="experiencia-tittle">experiencia</h2>
+            <div class="experiencia">
+                <h1 class="experiencia-company">MERCADO LIBRE </h1>
+                <h4 class="experiencia-position">Desarrollador web junior</h4>
+                <p class="year">2020-2022</p>
+                <ul>
+                    <li>Desarrollo de proyectos en PHP-MySQL.</li>
+                    <li>Diseño frontend en HTML5, JQuery, Bootstrap y CSS3.</li>
+                    <li>Desarrollo de aplicaciones interactivas en Ajax.</li>
+                </ul>
+        </div>
+
+        <div class="experiencia">
+            <h1 class="experiencia-company">MAVERICK SYSTEMS</h1>
+            <h4 class="experiencia-position">Desarollor web</h4>
+            <p class="year">2022 </p>
+            <ul>
+                <li>Optimización de las interfaces de usuario de 10 diseños de sitios web a través de HTML y CSS</li>
+                <li>Comprobación de errores y depuración de sitios web.</li>
+                <li>Hacer que el sitio web sea responsivo.</li>
+            </ul>
+    </div>
+</div>
+        <!-- SECCION PORTFOLIO -->
+        <section id="estudio" class="estudio">
+            <div class="contenido-seccion">
+                <h2>Estudios</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="https://res.cloudinary.com/hdsqazxtw/image/upload/v1642799651/WWW/Group_1.jpg" height="150" width="100" alt="Coderhouse logo">
+                        <div class="overlay">
+                            <h3>Coderhouse</h3>
+                            <p>Desarollo web</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="https://accesapp.org/wp-content/uploads/2021/07/logo-utn.png" height="150" width="100"alt="UTN logo">
+                        <div class="overlay">
+                            <h3>UTN</h3>
+                            <p>Analista</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Platzi.jpg" height="150" width="100"alt="Platzi logo">
+                        <div class="overlay">
+                            <h3>Platzi</h3>
+                            <p>Front End </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <div class="horizontal-padding vertical-padding">
+    <section class="contacto" id="contact">
+        <h2 class="contac-title">contacto</h2>
+        <div class="contact-details">
+            <div class="contact-details-group">
+                <p class="contact-label">direccion</p>
+                <p class="contact-text">Calle falsa 123.</p>
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-label">Email</p>
+                <p class="contact-text">Jorgecadamuro@gmail.com</p>
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-texto">Deje su mensaje y con gusto le respondere. </p>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="contact-form-group">
+                 <label for="name">Nombre</label>
+                 <input required type="text" name="name" id="name">
+            </div>
+            <div class="contact-form-group">
+                <label for="Email">Email</label>
+                <input required type="email" name="Email" id="Email">
+           </div>
+           <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+       </div>
+
+       <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <ul>
+            <li><a href="https://twitter.com/?lang=es"></a><i class="fa-brands fa-twitter"></i></li>
+            <li><a href="https://discord.com/"></a><i class="fa-brands fa-github"></i></li>
+            <li><a href="https://ar.linkedin.com/"></a><i class="fa-brands fa-linkedin"></i></li>
+            <li><a href="https://www.instagram.com/"></a><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+
+    </section>
+</div>
+
+<footer class="footer">
+    © 2023 - Jorge Cadamuro
+
+</footer>
+
+
+
+</body>
+</html>
